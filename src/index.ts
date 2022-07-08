@@ -1,5 +1,5 @@
-import express from "express";
-
+import express, { NextFunction, Request, Response } from "express";
+import "express-async-errors";
 import { usersRoutes } from "./routes/users.routes";
 
 const app = express();
